@@ -1,2 +1,2 @@
 # django_book_shop
- a django online bookshop
+ a django online used bookshop
