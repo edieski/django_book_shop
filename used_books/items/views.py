@@ -60,4 +60,5 @@ def edit(request, pk):
 
     return render(request, 'items/form.html',  
                   {'form' : form,
-                           'title': 'New item', })
+
+                   'title': 'New item', })
