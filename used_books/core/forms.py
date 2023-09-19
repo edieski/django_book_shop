@@ -8,7 +8,7 @@ class LoginFormm(AuthenticationForm):
         'placeholder' : 'Your username', 
         'class' : 'w-full py-4 px-6 rounded-xl'
     }))
-      password = forms.CharField(widget=forms.TextInput(attrs={
+      password = forms.CharField(widget=forms.PasswordInput(attrs={
         'placeholder' : 'Your password', 
         'class' : 'w-full py-4 px-6 rounded-xl'
     }))
@@ -23,12 +23,12 @@ class SignupForm(UserCreationForm):
         'class' : 'w-full py-4 px-6 rounded-xl'
     }))
 
-    email = forms.CharField(widget=forms.TextInput(attrs={
+    email = forms.CharField(widget=forms.EmailInput(attrs={
         'placeholder' : 'Your email', 
         'class' : 'w-full py-4 px-6 rounded-xl'
     }))
 
-    password1 = forms.CharField(widget=forms.TextInput(attrs={
+    password1 = forms.CharField(widget=forms.PasswordInput(attrs={
         'placeholder' : 'Your password', 
         'class' : 'w-full py-4 px-6 rounded-xl'
     }))
